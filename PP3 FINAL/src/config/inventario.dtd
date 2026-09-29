@@ -1,0 +1,18 @@
+<!ELEMENT Sucursales (Sucursal+)>
+
+<!ELEMENT Sucursal (Categoria+)>
+<!ATTLIST Sucursal
+    nombre CDATA #REQUIRED
+>
+
+<!ELEMENT Categoria (Producto+)>
+<!ATTLIST Categoria
+    nombre CDATA #REQUIRED
+>
+
+<!ELEMENT Producto EMPTY>
+<!ATTLIST Producto
+    nombre CDATA #REQUIRED
+    precio CDATA #REQUIRED
+    stock CDATA #REQUIRED
+>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Sucursales>
+    <Sucursal nombre="Sucursal Central">
+        <Categoria nombre="General">
+            <Producto nombre="Producto Base" precio="0.0" stock="0" />
+        </Categoria>
+    </Sucursal>
+    <Sucursal nombre="Ceti">
+        <Categoria nombre="Salones">
+            <Producto nombre="Sillas" precio="123.0" stock="43" />
+        </Categoria>
+    </Sucursal>
+    <Sucursal nombre="Miami">
+        <Categoria nombre="Playa">
+            <Producto nombre="Pelota de playa" precio="150.0" stock="10" />
+        </Categoria>
+    </Sucursal>
+</Sucursales>
